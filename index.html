@@ -13,6 +13,8 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,18 +23,46 @@
         <section id="home">
             <h2>Home</h2>
             <p>This is the home section.</p>
+            <button id="alertButton">Click Me!</button>
         </section>
         <section id="about">
             <h2>About</h2>
-            <p>This is the about section.</p>
+            <p>This section provides information about Port 404.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>SEO Optimization</li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"Port 404 provided excellent service!"</p>
+                <footer>- Happy Client</footer>
+            </blockquote>
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>This is the contact section.</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Port 404. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
